@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
                // Toast.makeText(getApplicationContext(), "This button is tapped", Toast.LENGTH_SHORT).show();
                 String url = "https://api.lyrics.ovh/v1/" + edtArtistName.getText().toString() + "/" + edtSongName.getText().toString();
+                url.replace(" ","%20");
                 RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
 
                 JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
@@ -63,7 +64,9 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onErrorResponse(VolleyError error) {
 
-                                txtLyrics.setText("Song not found");
+                                if (error.networkResponse.statusCode==404) {
+                                    txtLyrics.setText("Song not found");
+                                }
 
                             }
                         });
