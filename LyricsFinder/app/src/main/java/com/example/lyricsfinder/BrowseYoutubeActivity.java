@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class Browse_youtube extends AppCompatActivity {
+public class BrowseYoutubeActivity extends AppCompatActivity {
 
     private WebView webView;
 

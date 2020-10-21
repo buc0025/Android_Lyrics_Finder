@@ -21,9 +21,9 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText edtArtistName, edtSongName;
-    Button btnGetLyrics, btnYoutube;
-    TextView txtLyrics;
+    private EditText edtArtistName, edtSongName;
+    private Button btnGetLyrics, btnYoutube;
+    private TextView txtLyrics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +39,11 @@ public class MainActivity extends AppCompatActivity {
         btnYoutube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String artist = edtArtistName.getText().toString();
-                String song = edtSongName.getText().toString();
+                final String artist = edtArtistName.getText().toString();
+                final String song = edtSongName.getText().toString();
                 song.replace(" ", "+");
-                Intent intent = new Intent(MainActivity.this, Browse_youtube.class);
+
+                Intent intent = new Intent(MainActivity.this, BrowseYoutubeActivity.class);
                 intent.putExtra("Artist", artist);
                 intent.putExtra("Song", song);
                 startActivity(intent);
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         btnGetLyrics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://api.lyrics.ovh/v1/" + edtArtistName.getText().toString() + "/" +
+                final String url = "https://api.lyrics.ovh/v1/" + edtArtistName.getText().toString() + "/" +
                         edtSongName.getText().toString();
                 url.replace(" ","%20");
 
@@ -62,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
                         null, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-
                         try {
                             if (response.getString("lyrics").length() != 0) {
                                 txtLyrics.setText(response.getString("lyrics"));
