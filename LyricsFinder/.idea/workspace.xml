@@ -10,7 +10,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="611962fb-dfc0-4519-b19b-b099a03486b1" name="Default Changelist" comment="" />
+    <list default="true" id="611962fb-dfc0-4519-b19b-b099a03486b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GitTest/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GitTest/.idea/gradle.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,10 +47,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-21T19:27:32.442Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-680511839">
+      <recent name="com.example.lyricsfinder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yangPC\AndroidStudioProjects\LyricsFinder\LyricsFinder\app\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -127,26 +140,26 @@
     <state width="1863" height="200" key="GridCell.Tab.0.bottom" timestamp="1595015482567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593632104343" />
     <state width="1863" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595015482567" />
     <state width="1863" height="200" key="GridCell.Tab.0.center" timestamp="1595015482566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="214" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593632104343" />
     <state width="1863" height="200" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595015482566" />
     <state width="1863" height="200" key="GridCell.Tab.0.left" timestamp="1595015482566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="214" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593632104343" />
     <state width="1863" height="200" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595015482566" />
     <state width="1863" height="200" key="GridCell.Tab.0.right" timestamp="1595015482567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="214" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593632104343" />
     <state width="1863" height="200" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595015482567" />
-    <state x="-1349" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1593451798937">
+    <state x="-1583" y="75" key="SettingsEditor" timestamp="1602881463703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1349" y="301" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593451798937" />
+    <state x="-1583" y="75" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602881463703" />
+    <state x="717" y="282" key="chooseDestDirectoryDialog" timestamp="1603308391089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="282" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603308391089" />
   </component>
 </project>
